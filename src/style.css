@@ -10,3 +10,7 @@ body {
 form {
   text-align: center;
 }
+.footer-center {
+    text-align: center;
+    width: 100%;
+}
