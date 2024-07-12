@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
+  margin: 1rem;
   font-family: Arial, sans-serif;
 }
 
@@ -13,4 +13,7 @@ form {
 .footer-center {
   text-align: center;
   width: 100%;
+}
+#Dominio {
+  margin: 5rem;
 }
