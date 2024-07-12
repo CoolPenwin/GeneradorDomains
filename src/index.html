@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Generador de Dominios</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -11,19 +11,19 @@
       crossorigin="anonymous"
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
-    </div>
+    <h1>Generador de Dominios</h1>
+    <form id="domainForm">
+      <input type="radio" id="random" name="mode" value="random" checked />
+      <label for="random">Aleatorio</label><br />
+      <input type="radio" id="all" name="mode" value="all" />
+      <label for="all">Todas las combinaciones</label><br />
+      <button type="button" id="nuevoDom">Generar Dominio</button>
+    </form>
+    <div id="Dominio"></div>
+
+    <script src="script.js"></script>
   </body>
 </html>
